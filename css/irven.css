@@ -142,20 +142,20 @@ nav {
     align-items: center;
 }
 .aboutme_h1{
-
-    background: linear-gradient(84deg, rgba(0,0,0,0) 0%, rgba(246, 255, 0, 0.486) 51%, rgba(0,0,0,0) 100%);
     text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
-    letter-spacing: 3.8px;
-    word-spacing: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
     color: gold;
-    font-weight: 400;
-    text-decoration: none solid rgb(68, 68, 68);
-    text-shadow: 4px 4px 3px rgb(0, 0, 0);
+    text-shadow: 3px 3px 4px black;
+    font-weight: 700;
+    text-decoration: none;
     font-style: italic;
     font-variant: small-caps;
     text-transform: lowercase;
     transition: all ease-in-out .6s;
+    background: linear-gradient(84deg, rgba(0,0,0,0) 0%, rgba(246, 255, 0, 0.486) 51%, rgba(0,0,0,0) 100%);
 }
 .aboutme_h1:hover{
     color: #000000;
@@ -262,60 +262,82 @@ nav {
 
 /*cv*/
 #cv{
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/dark-minimalist-11.jpg);
+    background-image: url(https://i.pinimg.com/originals/fd/23/0c/fd230ce11f6d01c535ef461aeccd30ba.jpg);
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 30px 0 30px 0;
 }
 .cv_h1{
-    margin: 2% 0 0 10%;
-    font-family: "Arial Black", Gadget, sans-serif;
-    letter-spacing: 3.8px;
-    word-spacing: 0px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
     color: gold;
-    font-weight: 400;
-    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: 3px 3px 4px black;
+    font-weight: 700;
+    text-decoration: none;
     font-style: italic;
-    font-variant: small-caps;   
+    font-variant: small-caps;
     text-transform: lowercase;
-    text-shadow: 4px 4px 5px rgb(0, 0, 0);
     transition: all ease-in-out .6s;
 }
 .cv_h1:hover{
-    color: #000000;
-    text-shadow: 4px 4px 0px gold;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px gold;
 }
-.cv_h2 {
-    font-size: 24px;
-    color: rgb(255, 217, 0);
-    margin-bottom: 10px;
-    text-shadow: 3px 3px 4px rgb(0, 0, 0);
-    font-family: 'Arial', sans-serif; /* Set your preferred font */
-}
-.cv_h2_info {
-    font-size: 16px;
-    margin: 8px 0;
-    line-height: 1.5;
-    font-family: 'Arial', sans-serif;
-    text-shadow: 3px 3px 4px rgb(255, 255, 255);
-    animation: fadeIn 1s ease-in-out; /* Add fade-in animation */
-}
-.articles {
-    width: 1000px;
-    margin: 0 5% 0 18%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.412));
-    padding: 20px; /* Add padding for better spacing */
-    border-radius: 10px; /* Add rounded corners for a modern look */
-}
-.cv_h2,
-.cv_h2_info {
 
-    
+
+.cv_contents {
+    background-color: rgba(255, 255, 255, 0.264);
+    background-image: url(https://i.pinimg.com/originals/fd/23/0c/fd230ce11f6d01c535ef461aeccd30ba.jpg);
+    border-radius: 10px;
+    box-shadow: 0 0 30px 10px gold;
+    background-size: cover;
+    width: 850px;
     text-align: center;
-    transition: all 0.5s ease-in-out;
+    margin-left: 25%;
+    
 }
-#cv:hover .cv_h2,
-#cv:hover .cv_h2_info {
-    text-shadow: 3px 3px 4px rgb(0, 0, 0);
-    color: white;
+.cv_info_container{
+    margin:  10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #000000ac
+    
+    
+}
+
+
+.cv_h2 {
+    font-family: Impact, Charcoal, sans-serif;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+    color: #fdfdfd;
+}
+
+.cv_h2_info {
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: -1px;
+    word-spacing: -2.2px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin: 10px 0 10px 0;
+}
+
+.cv_contents_margin {
+    margin: 1px ;
 }
 /*cv*/
 
