@@ -1,0 +1,457 @@
+/*scrollbar */
+/* Define the track style */
+body::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+}
+
+/* Define the thumb style */
+body::-webkit-scrollbar-thumb {
+    background-color: #9e9e9e; /* Adjust the color as needed */
+    border-radius: 6px; /* Adjust the border radius as needed */
+}
+
+/* Define the track style for the scrollbar track not covered by the thumb */
+body::-webkit-scrollbar-track {
+    background-color: #000000; /* Adjust the color as needed */
+}
+
+/* Define the corner style where the vertical and horizontal scrollbars meet */
+body::-webkit-scrollbar-corner {
+    background-color: #000000; /* Adjust the color as needed */
+}
+/*scrollbar */
+
+
+/*navbar*/
+nav {
+    background: rgba(0, 0, 0, 0.564);
+    text-align: right;
+    padding: 20px; 
+    margin: -.7% -5% 0 -.15%;
+    height: 55px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+    transition: all ease-in-out .3s;
+}
+
+.navbar:hover {
+    background: rgba(255, 255, 255, 0.41);
+}
+
+.navbutton {
+    margin: 0 1% 0 1%;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.364);
+    background-color: #ffffff;
+    transition: background-position 0.3s, color 0.3s, background-color 0.3s;
+}
+
+.navbutton:hover {
+    background-position: 100% 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar h3 {
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+    text-shadow: 0 0 15px black;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    margin: -.5% 0 0 1%;
+}
+/*navbar*/
+
+
+/*home*/
+#home {
+    background-image: url(https://i.pinimg.com/originals/aa/61/56/aa6156ccd4bce8152640bcaa8a502090.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;  
+}
+.home_h1,
+.home_h2,
+.home_h3 {
+    
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 0.6px;
+    color: #fefefe;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-shadow: 4px 4px 2px rgba(131, 126, 126, 0.6);
+    z-index: 1; 
+     
+}
+
+.home_h1 {
+    color: gold;
+    margin: -4% 0 0 30%;
+    font-size: 80px;
+}
+
+.home_h2 {
+    margin: -8% 0 -7% 63%;
+    font-size: 80px;
+}
+
+.home_h3 {
+    margin: 0 0 13% 0;
+    font-size: 190px;
+}
+
+.namechange:hover {
+    color: gold;
+}
+/* home */
+
+
+/*aboutme*/
+#aboutme {
+    /*background-image: url(https://preview.redd.it/adrpy0bg1ni81.jpg?auto=webp&s=d17884fae8dc05fa9f534147d0d8269a0d38c304);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.966), rgba(74, 74, 74, 0.56));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme_h1{
+
+    background: linear-gradient(84deg, rgba(0,0,0,0) 0%, rgba(246, 255, 0, 0.486) 51%, rgba(0,0,0,0) 100%);
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 3.8px;
+    word-spacing: 0px;
+    color: gold;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: 4px 4px 3px rgb(0, 0, 0);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    transition: all ease-in-out .6s;
+}
+.aboutme_h1:hover{
+    color: #000000;
+    text-shadow: 4px 4px 0px gold;
+}
+
+.aboutme_picture{
+    border: 5px solid gold;
+    width: 105%;
+    margin-left: -5%;
+    margin-top: 7%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 39px 10px rgba(0,0,0,0.75);
+    
+}
+    
+.aboutme-container {
+
+    max-width: 1200px;
+    width: 100%;
+}
+    
+.aboutme-content {
+    display: flex;
+    flex-direction: row;
+}
+    
+.aboutmeleft {
+    flex: 1;
+    padding: 20px;
+}
+    
+.aboutmeright {
+    flex: 1;
+    padding: 40px;
+}
+.aboutme_info{
+    border: 2px solid gold;
+    border-radius: 2%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.823), rgba(255, 255, 255, 0.062));
+    box-shadow: 10px 10px 39px 10px rgba(0,0,0,0.75);
+    padding: 15px;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: justify;
+    letter-spacing: 3.8px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 200;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.aboutme_button {
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: 3.8px;
+    word-spacing: 0px;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.75);
+    transition: all 0.5s;
+}
+
+.aboutme_button:hover {
+    border: 2px solid white;
+    background-color: #000;
+    color: gold;
+}
+.hyperlinks{
+    margin-top: 3%;
+    margin-left: 9%;
+}
+
+.hyperlink_margins{
+    margin: 2%;
+}
+.home_hreficons{
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.389);
+    width: 10%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home_hreficons:hover{
+    transform: rotate(720deg);
+    box-shadow: 0 0 5px 5px gold;
+}
+.hrefmargin{
+    margin-top: -5%;
+    margin-left: 50%;
+}
+    
+/*aboutme*/
+
+/*cv*/
+#cv{
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/dark-minimalist-11.jpg);
+    background-attachment: fixed;
+}
+
+.cv_h1{
+    margin: 2% 0 0 10%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 3.8px;
+    word-spacing: 0px;
+    color: gold;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;   
+    text-transform: lowercase;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+    transition: all ease-in-out .6s;
+}
+.cv_h1:hover{
+    color: #000000;
+    text-shadow: 4px 4px 0px gold;
+}
+
+
+.cv_h2 {
+    font-size: 24px;
+    color: rgb(255, 217, 0);
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif; /* Set your preferred font */
+}
+
+.cv_h2_info {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 3px 3px 4px rgb(255, 255, 255);
+    animation: fadeIn 1s ease-in-out; /* Add fade-in animation */
+}
+.articles {
+    width: 1000px;
+    margin: 0 5% 0 18%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.412));
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+}
+
+
+/* Add smooth transition */
+
+.cv_h2,
+.cv_h2_info {
+
+    
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+
+#cv:hover .cv_h2,
+#cv:hover .cv_h2_info {
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    color: white;
+}
+
+/* Fade-in animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*cv*/
+
+/*contact*/
+#contact{
+    background-image: url(https://w.forfun.com/fetch/56/56ea42f8d77509eec7615fb8cc1b8c5b.jpeg);
+    background-attachment: fixed;
+}
+.contact_title{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: gold;
+    text-shadow: 3px 3px 4px black;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    transition: all ease-in-out .6s;
+}
+.contact_title:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px gold;
+}
+.contact_subtitle{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 51%, rgba(0,0,0,0) 100%);
+    transition: transform .5s ease-in-out;
+}
+.contact_subtitle:hover{
+    color: gold;
+}
+
+.contact_me{
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    text-shadow: 1px 1px 10px white;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    margin-left: 20%;
+    margin-top: 5%
+}
+.contact h3{
+    font-size: xx-large;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #888888;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.contact_p{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #ffff69;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+text-shadow: 0px 0px 15px white;
+    margin-top: 3%;
+margin-left: 20%;
+transition: transform 0.4s ease-in-out;
+}
+.contact_p:hover{
+    transform: scale(1.01);
+    text-shadow: 0px 0px 15px black;
+    color: #ffffff;
+
+}
+
+.contact_icons{
+    margin-right: 2%;
+    width: 40px;
+    box-shadow: 0 0 10px 10px rgb(0, 0, 0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.contact_icons:hover{
+    width: 40px;
+    box-shadow: 0 0 10px 10px rgb(105, 105, 105);
+    transform: rotate(360deg);
+}
+/*contact*/
+.content {
+    margin-top: .1%;
+}
+
+.content-section {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
