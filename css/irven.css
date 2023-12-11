@@ -54,13 +54,14 @@ nav {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.364);
     background-color: #ffffff;
-    transition: background-position 0.3s, color 0.3s, background-color 0.3s;
+    transition: all ease-in-out .4s;
 }
 
 .navbutton:hover {
+    border: 2px solid gold;
     background-position: 100% 0;
     background-color: #000000;
-    color: #ffffff;
+    color: gold;
 }
 
 .navbar h3 {
