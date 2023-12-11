@@ -302,6 +302,7 @@ nav {
     
 }
 .cv_info_container{
+    border: 2px solid white;
     margin:  10px 10px 10px 10px;
     border-radius: 10px;
     background-color: #000000ac
