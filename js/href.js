@@ -18,3 +18,16 @@ function openfbLink() {
     var url = "https://www.youtube.com/channel/UC3IeGHnXQVrgRQ_7kht_tgA";
     window.location.href = url;
   }
+
+  function openProject1Link() {
+    var url = "https://github.com/irvento/MIDGAME";
+    window.location.href = url;
+  }
+  function openProject2Link() {
+    var url = "https://github.com/irvento/PersonalPortfolio";
+    window.location.href = url;
+  }
+  function openProject3Link() {
+    var url = "https://github.com/irvento/Calcu";
+    window.location.href = url;
+  }

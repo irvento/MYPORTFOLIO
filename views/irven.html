@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/irven.css">
+    <link rel="stylesheet" href="/css/irven.css">
     <style>
         /* Add your styles here */
     </style>
@@ -21,9 +21,12 @@
         <div>
             <a href="#home" class="navbutton" onclick="scrollToSection('home')">HOME</a>
             <a href="#aboutme" class="navbutton" onclick="scrollToSection('aboutme')">ABOUT ME</a>
+            <a href="#cv" class="navbutton" onclick="scrollToSection('cv')">RESUME/CV</a>
             <a href="#projects" class="navbutton" onclick="scrollToSection('projects')">MY PROJECTS</a>
             <a href="#contact" class="navbutton" onclick="scrollToSection('contact')">CONTACT</a>
-            <a href="/ElectivePortfolio/index.html" class="navbutton">Back to HomePage</a>
+            
+
+            <a href="/index.html" class="navbutton">Back to HomePage</a>
         </div>
     </nav>
 
@@ -40,12 +43,14 @@
             <article class="aboutme-container">
                 <h1 class="aboutme_h1">ABOUT ME</h1>
                 <div class="aboutme-content">
+
                     <div class="aboutmeleft">
-                        <img src="/ElectivePortfolio/imgs/profilepicture.jpg" alt="irven" class="w3-left w3-square aboutme_picture">
+                        <img src="/imgs/profilepicture.jpg" alt="irven" class="w3-left w3-square aboutme_picture">
                     </div>
                     <div class="aboutmeright">
                         <p class="aboutme_info">Hello there! I'm a 19-year-old BSIT student hailing from Northern Bukidnon State College. My name is <span class="namechange">Irven L. Abarquez</span>, I currently live in Tankulan, Manolo Fortich, Bukidnon, Philippines. Embracing a simple and minimalist lifestyle, I find joy in the art of programming and web development, continuously honing my skills in these domains. As I navigate the fascinating world of coding, I'm fueled by the passion to evolve into a proficient developer. Behind every thing of that my hobbies are, venturing out of in the beauty of natures and killing time with enjoyment in gaming.</p>
                     </div>
+
                 </div>
                 
 
@@ -83,9 +88,45 @@
         </div>
 
         <div id="projects" class="content-section">
-            <div>
-                <article></article>
-                <article></article>
+            
+            <div class="projects">
+                <h1 class="project_h1">PROJECTS</h1>
+                <div class="project1 ">
+                    <div class="projectsleft bigProject_hover">
+                            <img src="/imgs/projects1.jpg" alt="project1" class="project_project1_img">
+                            <p class="project_info">Java • Pixel Art Studios</p>
+                        </div>
+                        <div class="projectsright">
+                            <h1 class="project_info_h1">Underworld Legends</h1>
+                            <p class="project_info2">Underworld Legends was created back then from my freshmen year 2021 - 2022. This project is inspired from Kaarin Gaming's game which is called the Platformer Tutorial from youtube. I modified and edited Kaarin's single multiplayer game into a Player vs. Player, implementing it into a fun and interactive one.</p>
+                            <p class="project_info project_GITbutton project_GITbutton_margin"><a href="#" target="_blank" onclick="openProject1Link()" class="a_projects">GitHub Repository</a></p>
+                    </div>
+                </div>
+
+                <div class="project2">
+                    <div class="projectsright">
+                            <h1 class="project_info_h1">SPA Portfolio</h1>
+                            <p class="project_info2">This portfolio is created in the month of November 2023. It is implemented using a single page application portfolio using AJAX that manipulates the contents of the webpage by clicking the buttons in the navbar. This project is from my Major Subject, Event Driven </p>
+                            <p class="project_info project_GITbutton project_GITbutton_margin"><a href="#" target="_blank" onclick="openProject2Link()" class="a_projects">GitHub Repository</a></p>
+                        </div>
+                        <div class="projectsleft bigProject_hover">
+                            <img src="/imgs/project2.png" alt="project2" class="project_project2_img">
+                            <p class="project_info">HTML • CSS • Javascript </p>
+                    </div>
+                </div>
+
+                <div class="project3">
+                    <div class="projectsleft bigProject_hover">
+                            <img src="/imgs/project3.png" alt="project3" class="project_project3_img">
+                            <p class="project_info">Java</p>
+                        </div>
+                        <div class="projectsright">
+                            <h1 class="project_info_h1">Java Simple Calculator</h1>
+                            <p class="project_info2">This program was created form my freshmen years 2021 - 2022, it was created using simple arithmetics, logics, conditions and Java's Swing GUIs. It works like any simple calculator. </p>
+                            <p class="project_info project_GITbutton project_GITbutton_margin"><a href="#" target="_blank" onclick="openProject3Link()" class="a_projects">GitHub Repository</a></p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -110,11 +151,6 @@
 
    
 </body>
-<script src="/ElectivePortfolio/js/href.js"></script>
-<script>
-    function scrollToSection(sectionId) {
-        const section = document.getElementById(sectionId);
-        section.scrollIntoView({ behavior: 'smooth' });
-    }
-</script>
+<script src="/js/href.js"></script>
+<script src="/js/scroll.js"></script>
 </html>

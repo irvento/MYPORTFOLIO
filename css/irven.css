@@ -40,7 +40,7 @@ nav {
 }
 
 .navbutton {
-    margin: 0 1% 0 1%;
+    margin: 0 .5% 0 .5%;
     font-family: Georgia, serif;
     letter-spacing: 2px;
     word-spacing: 2px;
@@ -240,7 +240,7 @@ nav {
     margin: 2%;
 }
 .home_hreficons{
-    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.389);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.389);
     width: 10%;
     transition: transform 0.3s ease-in-out;
 }
@@ -280,8 +280,6 @@ nav {
     color: #000000;
     text-shadow: 4px 4px 0px gold;
 }
-
-
 .cv_h2 {
     font-size: 24px;
     color: rgb(255, 217, 0);
@@ -289,7 +287,6 @@ nav {
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
     font-family: 'Arial', sans-serif; /* Set your preferred font */
 }
-
 .cv_h2_info {
     font-size: 16px;
     margin: 8px 0;
@@ -306,9 +303,6 @@ nav {
     border-radius: 10px; /* Add rounded corners for a modern look */
 }
 
-
-/* Add smooth transition */
-
 .cv_h2,
 .cv_h2_info {
 
@@ -316,31 +310,145 @@ nav {
     text-align: center;
     transition: all 0.5s ease-in-out;
 }
-
-
 #cv:hover .cv_h2,
 #cv:hover .cv_h2_info {
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
     color: white;
 }
 
-/* Fade-in animation keyframes */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+/*cv*/
+
+
+/*projects*/
+#projects {
+    background-image: url(https://images4.alphacoders.com/132/1329894.png);
+    background-size: cover;
+    height: auto;
+}
+
+.project_h1{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: gold;
+    text-shadow: 3px 3px 4px black;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    transition: all ease-in-out .6s;
+}
+.project_h1:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px gold;
+}
+.project1,
+.project2,
+.project3 {
+    
+    display: flex;
+    max-width: 4000px; /* Adjust the maximum width as needed */
+    margin: 20px auto; /* Center the container and add margin */
+}
+
+.projectsleft, .projectsright {
+    background-image: url(https://wallpaper.dog/large/20395942.jpg);
+    background-size: cover;
+    flex: 1; /* Distribute available space equally between left and right */
+    padding: 5px; /* Add padding for spacing */
+    box-shadow: 0 0 10px 3px;
+    border-radius: 10px;
+    margin: 1.5%;
 }
 
 
-/*cv*/
+.projectsleft {
+    
+    background-color: #e0e0e0;
+}
+
+.projectsright {
+    background-color: #f0f0f0;
+}
+
+.project_project1_img,
+.project_project2_img,
+.project_project3_img{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 800px;
+}
+.project_info{
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.project_info_h1{
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin: 10px 3% 0 3%;
+    color: white;
+}
+.project_info2{
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;   
+    text-transform: none;
+    text-align: justify;
+    font-size: larger;
+    margin: 10px 3% 3% 3%;
+    color: white;
+}
+
+.bigProject_hover{
+    transition: all ease-in-out .5s;
+}
+.bigProject_hover:hover{
+    transform: scale(1.05);
+}
+.project_GITbutton{
+    transition: all ease-in-out .3s;
+}
+.project_GITbutton:hover{
+    transform: scale(1.01);
+    border-radius: 30px;
+    border: 2px solid gold;
+    color: gold;
+    background-color: rgb(0, 0, 0);
+}   
+
+.project_GITbutton_margin{
+    margin: 25% 20% 0 20%;
+}
+.a_projects{
+    text-decoration: none;
+}
+/*projects*/
+
 
 /*contact*/
 #contact{
     background-image: url(https://w.forfun.com/fetch/56/56ea42f8d77509eec7615fb8cc1b8c5b.jpeg);
     background-attachment: fixed;
+}
+.contact{
+    margin: 5% 0 0 30%;
 }
 .contact_title{
     text-align: center;
@@ -399,7 +507,7 @@ nav {
     font-family: Georgia, serif;
     letter-spacing: 2px;
     word-spacing: 2px;
-    color: #888888;
+    color: #ffffff;
     font-weight: normal;
     text-decoration: none;
     font-style: normal;
@@ -422,6 +530,7 @@ text-transform: none;
 text-shadow: 0px 0px 15px white;
     margin-top: 3%;
 margin-left: 20%;
+margin-right: -50%;
 transition: transform 0.4s ease-in-out;
 }
 .contact_p:hover{
