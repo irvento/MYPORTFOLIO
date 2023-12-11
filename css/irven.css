@@ -22,6 +22,7 @@ body::-webkit-scrollbar-corner {
 /*scrollbar */
 
 
+
 /*navbar*/
 nav {
     background: rgba(0, 0, 0, 0.564);
@@ -58,9 +59,10 @@ nav {
 }
 
 .navbutton:hover {
+    border: 2px solid gold;
     background-position: 100% 0;
     background-color: #000000;
-    color: #ffffff;
+    color: gold;
 }
 
 .navbar h3 {
@@ -77,6 +79,7 @@ nav {
     margin: -.5% 0 0 1%;
 }
 /*navbar*/
+
 
 
 /*home*/
@@ -125,6 +128,7 @@ nav {
     color: gold;
 }
 /* home */
+
 
 
 /*aboutme*/
@@ -253,15 +257,14 @@ nav {
     margin-top: -5%;
     margin-left: 50%;
 }
-    
 /*aboutme*/
+
 
 /*cv*/
 #cv{
     background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/dark-minimalist-11.jpg);
     background-attachment: fixed;
 }
-
 .cv_h1{
     margin: 2% 0 0 10%;
     font-family: "Arial Black", Gadget, sans-serif;
@@ -302,7 +305,6 @@ nav {
     padding: 20px; /* Add padding for better spacing */
     border-radius: 10px; /* Add rounded corners for a modern look */
 }
-
 .cv_h2,
 .cv_h2_info {
 
@@ -315,8 +317,8 @@ nav {
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
     color: white;
 }
-
 /*cv*/
+
 
 
 /*projects*/
@@ -329,7 +331,7 @@ nav {
 .project_h1{
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 50px;
+    font-size: 130px;
     letter-spacing: 2px;
     word-spacing: 2px;
     color: gold;
@@ -353,7 +355,6 @@ nav {
     max-width: 4000px; /* Adjust the maximum width as needed */
     margin: 20px auto; /* Center the container and add margin */
 }
-
 .projectsleft, .projectsright {
     background-image: url(https://wallpaper.dog/large/20395942.jpg);
     background-size: cover;
@@ -363,8 +364,6 @@ nav {
     border-radius: 10px;
     margin: 1.5%;
 }
-
-
 .projectsleft {
     
     background-color: #e0e0e0;
@@ -373,7 +372,6 @@ nav {
 .projectsright {
     background-color: #f0f0f0;
 }
-
 .project_project1_img,
 .project_project2_img,
 .project_project3_img{
@@ -439,7 +437,11 @@ nav {
 .a_projects{
     text-decoration: none;
 }
+.project_gifs{
+    width: 10%;
+}
 /*projects*/
+
 
 
 /*contact*/
@@ -553,6 +555,8 @@ transition: transform 0.4s ease-in-out;
     transform: rotate(360deg);
 }
 /*contact*/
+
+
 .content {
     margin-top: .1%;
 }
