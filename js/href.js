@@ -37,7 +37,7 @@ function openfbLink() {
     var url = "https://www.facebook.com/jenelle.lilocan.5";
     window.location.href = url;
   }
-  function openjunilouGITHUBLink()() {
+  function openjunilouGITHUBLink() {
     var url = "https://github.com/VirtudazoJ-IT24B";
     window.location.href = url;
   }
