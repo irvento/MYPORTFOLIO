@@ -15,6 +15,14 @@ body {
 }
 
 h1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
     font-size: 40px;
     color: black;
     margin-bottom: 10px;
