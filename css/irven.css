@@ -21,6 +21,66 @@ body::-webkit-scrollbar-corner {
 }
 /*scrollbar */
 
+/*cursor */
+body {
+    margin: 0;
+    overflow: hidden;
+    cursor: none; /* Hide the default cursor */
+}
+
+.cursor-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999; /* Ensure the cursor is on top of other elements */
+}
+
+.cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    animation: pulse 1s infinite alternate; /* Optional: Add a pulsating animation */
+}
+
+.trail {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    opacity: 0.6;
+    pointer-events: none;
+    animation: fadeOut 2s infinite ease-out, pulse 1s infinite alternate;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        
+    }
+    50% { transform: scale(1.2); opacity: 0.6; }
+            100% { transform: scale(1); opacity: 0; }
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.2);
+    }
+}
+@keyframes cursorAnimation {
+    0% { transform: scale(1); opacity: 0; }
+            50% { transform: scale(1.2); opacity: 0.6; }
+            100% { transform: scale(1); opacity: 0; }
+}
+
+
+/*cursor */
 
 
 /*navbar*/
