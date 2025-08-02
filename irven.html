@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Irven's_ElectivePortfolio</title>
 
@@ -163,33 +162,5 @@
 </body>
 <script src="./js/href.js"></script>
 <script src="./js/scroll.js"></script>
-<script>
-     document.addEventListener('DOMContentLoaded', function() {
-            const cursorContainer = document.querySelector('.cursor-container');
 
-            document.addEventListener('mousemove', function(e) {
-                createCursor(e.clientX, e.clientY);
-            });
-
-            function createCursor(x, y) {
-                const cursor = document.createElement('div');
-                cursor.className = 'cursor';
-                cursor.style.left = x + 'px';
-                cursor.style.top = y + 'px';
-                cursorContainer.innerHTML = '';
-                cursorContainer.appendChild(cursor);
-
-                createTrail(-2.4 + x, -2.4 + y);
-            }
-
-            function createTrail(x, y) {
-                const trail = document.createElement('div');
-                trail.className = 'trail';
-                trail.style.left = x + 'px';
-                trail.style.top = y + 'px';
-                cursorContainer.appendChild(trail);
-            }
-            
-        });
-</script>
 </html>

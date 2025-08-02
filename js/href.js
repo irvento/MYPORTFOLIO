@@ -31,13 +31,3 @@ function openfbLink() {
     var url = "https://github.com/irvento/Calcu";
     window.location.href = url;
   }
-
-  
-  function openjunilouFBLink() {
-    var url = "https://www.facebook.com/jenelle.lilocan.5";
-    window.location.href = url;
-  }
-  function openjunilouGITHUBLink() {
-    var url = "https://github.com/VirtudazoJ-IT24B";
-    window.location.href = url;
-  }
