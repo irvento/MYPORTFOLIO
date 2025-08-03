@@ -414,6 +414,8 @@ text-transform: none;
 }
 
 .project_h1{
+    display: flex;
+    margin: auto;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 130px;
@@ -427,6 +429,8 @@ text-transform: none;
     font-variant: small-caps;
     text-transform: lowercase;
     transition: all ease-in-out .6s;
+        display:flex;
+
 }
 .project_h1:hover{
     color: rgb(0, 0, 0);
